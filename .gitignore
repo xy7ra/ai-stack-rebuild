@@ -1,0 +1,44 @@
+# Python cache and venvs
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+.ai_stack_env/
+
+# Virtual environments
+/home/xy7ra/ai_stack_env/
+/home/xy7ra/scripts/__pycache__/
+
+# Local models and checkpoints
+models/
+*.gguf
+*.safetensors
+*.pt
+*.bin
+
+# Logs, dumps, scratch
+*.log
+*.out
+*.tmp
+nohup.out
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Git backup
+*.swp
+*.bak
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# VSCode/dev
+.vscode/
+*.code-workspace
+
